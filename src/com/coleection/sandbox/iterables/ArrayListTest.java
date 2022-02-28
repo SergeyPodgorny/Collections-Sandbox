@@ -1,6 +1,7 @@
 package com.coleection.sandbox.iterables;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 
 public class ArrayListTest {
@@ -10,15 +11,28 @@ public class ArrayListTest {
 	
 	public static void main(String[] args) {
 		
-		ArrayList<?super Number> someList = new ArrayList<>(10);
+		ArrayList<Integer> someList = new ArrayList<>();
+		
+		for (int i = 0; i < 20 ; i++) {
+			someList.add(i);
+		}
 		
 		
-		someList.add((Double)5.0);
+//	for (int i = 0; i < someList.size(); i++) {
+//		System.out.println(someList.get(i));
+//	}
+		
+		Iterator iterator = someList.iterator(); 
 		
 		
-		System.out.println(someList.isEmpty());
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+				
+
 		
-		System.out.println(someList.get(0));
+		
+		
 	}
 	
 
