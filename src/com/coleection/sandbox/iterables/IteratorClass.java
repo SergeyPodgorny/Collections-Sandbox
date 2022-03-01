@@ -11,7 +11,7 @@ public class IteratorClass {
 	
 	public static void main(String[] args) {
 		
-		ArrayList<Integer> someList = new ArrayList<>();
+		ArrayList<? super Integer> someList = new ArrayList<>();
 		
 		for (int i = 0; i < 20 ; i++) {
 			someList.add(i);
