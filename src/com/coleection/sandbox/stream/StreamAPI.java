@@ -23,10 +23,10 @@ public class StreamAPI {
 	
 //	List<Integer> list = Stream.generate(() -> Integer).limit(70).collect(toList());
 	
-	List<Integer> someList = Collections.nCopies(5, 20);
+	List<Integer> someList = Collections.nCopies(500, 20);
 	
 	
-	someList.stream().filter(s -> s>10).collect(Collectors.toList()).forEach(s -> System.out.println(s));
+	someList.stream().map(s -> s + 30).collect(Collectors.toList()).forEach(s -> System.out.println(s));
 	
 //	someList.forEach(s -> System.out.println(s));
 	
