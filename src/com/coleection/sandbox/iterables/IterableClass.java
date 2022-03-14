@@ -1,5 +1,6 @@
 package com.coleection.sandbox.iterables;
 
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -12,7 +13,7 @@ public class IterableClass {
 	
 	public static void main(String[] args) {
 		
-		ArrayList<Integer> someList = new ArrayList<>();
+		List<Integer> someList = new ArrayList<>();
 		
 		for (int i = 0; i < 20 ; i++) {
 			someList.add(i);
@@ -35,8 +36,14 @@ public class IterableClass {
 		
 //		someList.forEach(System.out::println);
 		
-		someList.forEach(s-> System.out.println(s));
+//		someList.forEach(s-> System.out.println(s));
 		
+//		someList.forEach(n -> {
+//			if (n % 3 ==0) {
+//				System.out.println(n);
+//			}
+//			
+//		});
 		
 		
 	}
