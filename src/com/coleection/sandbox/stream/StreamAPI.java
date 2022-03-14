@@ -1,8 +1,11 @@
 package com.coleection.sandbox.stream;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 
 
@@ -15,19 +18,17 @@ public class StreamAPI {
 		
 		
 		
-	List<Integer> someList = new ArrayList<>(); 
-	
-	
-	Iterator<Integer> iterator1 = someList.iterator();
-	
-	while(iterator1.hasNext()) {
-		someList.add(1);
-	}
 	
 	
 	
+//	List<Integer> list = Stream.generate(() -> Integer).limit(70).collect(toList());
 	
-	someList.stream().forEach(s -> System.out.println(s));
+	List<Integer> someList = Collections.nCopies(5, 20);
+	
+	
+	someList.stream().filter(s -> s>10).collect(Collectors.toList()).forEach(s -> System.out.println(s));
+	
+//	someList.forEach(s -> System.out.println(s));
 	
 	
 	

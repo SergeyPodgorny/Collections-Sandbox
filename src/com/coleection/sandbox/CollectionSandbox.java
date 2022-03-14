@@ -1,9 +1,14 @@
 package com.coleection.sandbox;
 
+import com.coleection.sandbox.stream.StreamAPI;
+
 public class CollectionSandbox {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
+		
+		StreamAPI streamer = new StreamAPI();
 
 	}
 
