@@ -1,6 +1,6 @@
 package com.coleection.sandbox;
 
-import com.coleection.sandbox.stream.StreamAPI;
+import com.coleection.sandbox.stream.Streams;
 
 public class CollectionSandbox {
 
@@ -8,7 +8,7 @@ public class CollectionSandbox {
 		
 		
 		
-		StreamAPI streamer = new StreamAPI();
+		Streams streamer = new Streams();
 
 	}
 

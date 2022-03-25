@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 
 
-public class StreamAPI {
+public class Streams {
 	
 	
 	
