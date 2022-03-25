@@ -1,5 +1,7 @@
 package com.coleection.sandbox.stream.two.dimensions;
 
+import java.util.Arrays;
+
 public class TwoDArray {
 	
 	
@@ -24,6 +26,7 @@ public class TwoDArray {
 		public double[][] getArray(){
 			return sparseField;
 		}
+
 		
 		
 }
