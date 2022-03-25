@@ -1,23 +1,19 @@
 package com.coleection.sandbox.stream.two.dimensions;
 
-
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class StreamFor2dArrays {
 	
 	
-	private static int SIZE = 17;
-	
-	
-protected double [][] sparseField = new double [SIZE][SIZE];
-	
-	
-	protected void buildSparseMatrix() {
+	public static void main(String[] args) {
 		
-		for (int i = 0; i < SIZE; i++) {
-			for (int j = 0; j < SIZE; j++) {
-				sparseField[i][j] = 0;
-			}
-		}
+		TwoDArray array = new TwoDArray();
+		
+		Arrays.asList(array.getArray()).stream().forEach(s -> System.out.println(s));
+		
+		
+		
 		
 		
 	}
