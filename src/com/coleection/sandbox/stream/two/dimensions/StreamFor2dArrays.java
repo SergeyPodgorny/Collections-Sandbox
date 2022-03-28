@@ -13,7 +13,7 @@ public class StreamFor2dArrays {
 		
 		TwoDArray array = new TwoDArray();
 		
-		List<Double> lArrray = new ArrayList<>(Arrays.asList(array.getArray()));
+//		List<Double> lArrray = new ArrayList<>(Arrays.asList(array.getArray()));
 		
 //		Arrays.asList(array.getArray()).stream().map(s -> s);
 		
