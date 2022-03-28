@@ -16,7 +16,7 @@ public class InitialArray {
 	
 	
 	
-	public void buildSparseMatrix() {
+	public void buildMatrix() {
 		
 		for (int i = 0; i < SIZE; i++) {
 			for (int j = 0; j < SIZE; j++) {

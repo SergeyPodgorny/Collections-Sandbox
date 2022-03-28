@@ -13,7 +13,7 @@ public class ShiftLaunhcer {
 			
 			
 			
-			new InitialArray().buildSparseMatrix();
+			new InitialArray().buildMatrix();
 			
 			
 			
