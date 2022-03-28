@@ -7,6 +7,19 @@ public class ShiftLaunhcer {
 	
 		public static final int SIZE = 15;
 	
+		
+		public static void main(String[] args) {
+			
+			
+			
+			
+			new InitialArray().buildSparseMatrix();
+			
+			
+			
+		}
+		
+		
 	
 
 }
