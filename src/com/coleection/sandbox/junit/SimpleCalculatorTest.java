@@ -1,8 +1,10 @@
-package com.coleection.sandbox.junit.tutorial;
+package com.coleection.sandbox.junit;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.coleection.sandbox.junit.tutorial.SimpleCalculator;
 
 public class SimpleCalculatorTest {
 
@@ -22,7 +24,7 @@ public class SimpleCalculatorTest {
 	@Test
 	public void twoPlusThreeShouldEqualsFive() {
 		
-		assertEquals(6, calculator.addition(2,3));
+		assertEquals(5, calculator.addition(2,3));
 		
 	}
 	
