@@ -9,11 +9,10 @@ public class SynchronizedCollectionsLaunch {
 	public static void main(String[] args) {
 		
 		
-		SynchronizedCollection a1 = new SynchronizedCollection();
+		SynchronizedCollection synchronizedCollection  = new SynchronizedCollection();
 		
-		
-		a1.addingElements();
-		
+		System.out.println("Synchronized collection: ");
+		synchronizedCollection.returningList().stream().forEach(e -> System.out.print(e));
 		
 
 	}
