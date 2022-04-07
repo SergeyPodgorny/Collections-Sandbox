@@ -14,7 +14,14 @@ public class SynchronizedCollectionsLaunch {
 		System.out.println("Synchronized collection: ");
 		synchronizedCollection.returningList().stream().forEach(e -> System.out.print(e));
 		
-
+		System.out.println();
+		
+		RegularCollection regularCollection = new RegularCollection();
+		System.out.println("NotSynchronized collection: ");
+		regularCollection.returningList().stream().forEach(e -> System.out.print(e));
+		
+		
+		
 	}
 
 }
