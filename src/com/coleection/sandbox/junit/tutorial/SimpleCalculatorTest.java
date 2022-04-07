@@ -1,10 +1,8 @@
-package com.coleection.sandbox.junit;
+package com.coleection.sandbox.junit.tutorial;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-
-import com.coleection.sandbox.junit.tutorial.SimpleCalculator;
 
 public class SimpleCalculatorTest {
 
